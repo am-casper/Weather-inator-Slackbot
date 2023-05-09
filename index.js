@@ -44,8 +44,6 @@ app.message('help', async ({ message, say }) => {
 });
 
 app.message('everyone', async ({  say }) => {
-  
-  
   await say(`<!channel> !`);
 });
 
