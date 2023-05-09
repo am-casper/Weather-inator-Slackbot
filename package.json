@@ -4,12 +4,14 @@
   "description": "slackbot for mdg asgn",
   "main": "index.js",
   "scripts": {
-    "start":"index.js",
+    "start": "index.js",
     "test": "hello"
   },
   "author": "Aayushmaan",
   "license": "ISC",
   "dependencies": {
-    "@slack/bolt": "^3.13.1"
+    "@slack/bolt": "^3.13.1",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2"
   }
 }

@@ -25,7 +25,7 @@ app.message('weather', async ({ message, say }) => {
   const feels_like=curr_day.feelslike;
   const humidity=curr_day.humidity;
   const precip= curr_day.precip
-  console.log(response.data.days[0].temp)
+  // console.log(response.data.days[0].temp)
   await say(`Weather of ${city.charAt(0).toUpperCase() + city.slice(1)}\n
              Current Temp: ${curr_temp}°C\n
              It Feels Like: ${feels_like}°C\n
